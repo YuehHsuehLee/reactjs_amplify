@@ -34,7 +34,7 @@ class SportsNYTimes extends Component {
   }
     
     componentDidMount() {
-        fetch('/api/nytimes/sports')
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/nytimes/sports')
         .then(res => res.json())
         .then( (result) => {
                 this.setState({ results: result.results, isLoaded: true }, 

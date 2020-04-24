@@ -34,7 +34,7 @@ class TechnologyGuardian extends Component {
   }
     
     componentDidMount() {
-        fetch('/api/guardian/technology')
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/guardian/technology')
         .then(res => res.json())
         .then( (result) => {
                 this.setState({ results: result.response.results, isLoaded: true }, 

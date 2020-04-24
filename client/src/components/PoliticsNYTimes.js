@@ -34,7 +34,7 @@ class PoliticsNYTimes extends Component {
   }
     
     componentDidMount() {
-        fetch('/api/nytimes/politics')
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/nytimes/politics')
         .then(res => res.json())
         .then( (result) => {
                 this.setState({ results: result.results, isLoaded: true }, 

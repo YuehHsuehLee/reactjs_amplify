@@ -34,7 +34,7 @@ class BusinessGuardian extends Component {
   }
     
     componentDidMount() {
-        fetch('/api/guardian/business')
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/guardian/business')
         .then(res => res.json())
         .then( (result) => {
                 this.setState({ results: result.response.results, isLoaded: true }, 

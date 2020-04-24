@@ -46,7 +46,7 @@ class ArticleNYTimes extends Component {
         const { articleId } = this.props.location.state
         console.log(articleId);
         
-        fetch('/api/article/nytimes/search?id=' + articleId, {
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/article/nytimes/search?id=' + articleId, {
             headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json'

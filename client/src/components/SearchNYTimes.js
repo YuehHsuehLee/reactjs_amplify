@@ -44,7 +44,7 @@ class SearchNYTimes extends Component {
         const { keyword } = this.props.location.state
         console.log('Keyword is: ', keyword);
         
-        fetch('/api/search/nytimes/q?keyword=' + keyword, {
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/search/nytimes/q?keyword=' + keyword, {
             headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json'

@@ -34,7 +34,7 @@ class WorldNYTimes extends Component {
   }
     
     componentDidMount() {
-        fetch('/api/nytimes/world')
+        fetch('http://ec2-3-84-36-254.compute-1.amazonaws.com:5000/api/nytimes/world')
         .then(res => res.json())
         .then( (result) => {
                 this.setState({ results: result.results, isLoaded: true }, 
