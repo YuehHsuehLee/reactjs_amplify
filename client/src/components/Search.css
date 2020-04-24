@@ -1,0 +1,28 @@
+.card-columns {
+    column-count: 4;
+}
+
+.react-share__ShareButton {
+    margin: 8px 2px;
+}
+
+.card {
+    margin: 30px 0px;
+    box-shadow: 3px 6px 3px #9E9E9E;
+}
+
+.card-img-top.articleCardImg {
+    margin: 20px 0px 40px 0px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.dateRow {
+    margin-top: 10px;
+}
+
+.shareCol {
+    float: right;
+}

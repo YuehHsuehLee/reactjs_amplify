@@ -1,0 +1,25 @@
+.modal-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row {
+    display: 'flex'; 
+    justify-content: center;
+    align-items: center;
+}
+
+.react-share__ShareButton.homePage {
+    margin: 8px 50px;
+}
+
+.btn.btn-light {
+    background-image: url('https://img.icons8.com/material-sharp/24/000000/share.png');
+    width:20px; 
+    height:20px; 
+    border: 0;
+    background-size: 100%; 
+    background-size: 20px auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+}

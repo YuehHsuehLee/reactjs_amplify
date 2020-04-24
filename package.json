@@ -1,0 +1,42 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "HW8",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Charlie Lee",
+  "license": "USC",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "commentbox.io": "^2.0.0",
+    "concurrently": "^3.5.1",
+    "express": "^4.17.1",
+    "guardian-js": "^3.0.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "qs": "^6.9.3",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-typeahead": "^4.2.2",
+    "react-commentbox": "^3.0.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-overlays": "^3.1.2",
+    "react-promise-tracker": "^2.1.0",
+    "react-router": "^5.1.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-share": "^4.1.0",
+    "react-switch": "^5.0.1",
+    "react-text": "^3.2.4",
+    "react-truncate": "^2.4.0",
+    "styled-components": "^5.1.0",
+    "typy": "^3.3.0"
+  }
+}
