@@ -20,7 +20,7 @@
     "concurrently": "^3.5.1",
     "express": "^4.17.1",
     "guardian-js": "^3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28",
     "qs": "^6.9.3",
     "react-bootstrap": "^1.0.0",
