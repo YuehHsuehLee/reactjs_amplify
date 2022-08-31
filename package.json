@@ -21,7 +21,7 @@
     "express": "^4.17.1",
     "guardian-js": "^3.0.0",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "qs": "^6.9.3",
     "react-bootstrap": "^1.0.0",
     "react-bootstrap-typeahead": "^4.2.2",
