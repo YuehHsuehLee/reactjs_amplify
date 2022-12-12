@@ -18,7 +18,7 @@
   "dependencies": {
     "commentbox.io": "^2.0.0",
     "concurrently": "^3.5.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "guardian-js": "^3.0.0",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.28",
